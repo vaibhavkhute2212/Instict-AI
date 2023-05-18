@@ -1,0 +1,99 @@
+.obj4{
+    width: 70%;
+    padding: 40px;
+}
+h6{
+
+    font-size: 14px;
+    font-weight: 700;
+}
+p{
+
+    font-size: 12px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+.search {
+
+  background-color: aqua;
+  width: 40%;
+  height: 27px;
+  border: 1px solid rgb(155, 152, 152);
+  border-radius: 1px;
+  display: flex;
+  padding-left: 10px;
+  color: rgb(46, 45, 45);
+  background-color: white;
+  margin: 10px;
+}
+
+.search input {
+
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  outline: none;
+}
+
+
+.table {
+    width: 65%;
+    height: 304.7px;
+    border: 1px solid gray;
+    position: absolute;
+    table-layout: fixed; /* Set table layout to fixed */
+    border-collapse: collapse; /* Collapse border spacing */
+    
+  }
+  
+  
+
+  
+  .heading{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+  }
+  
+  
+  .grid > div {
+    
+    padding: 10px;
+    text-align: center;
+    
+    
+  }
+  
+  .grid > div:first-child {
+    
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    
+  }
+  
+  .grid > div:nth-child(1n+6) {
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(252, 252, 252);
+  }
+  

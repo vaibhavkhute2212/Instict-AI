@@ -1,0 +1,74 @@
+<div class="obj1">
+
+    <h6>Add new utterance</h6>
+    <p>
+        Lorem ipsum dolor sit ameadipisicing elit. Enim velit tempora perspiciatis quas
+    </p>
+
+    <button (click)="toggleForm()">
+        + Add intent
+    </button>
+    <div class="blur" *ngIf="showForm"></div>
+    <div class="form" *ngIf="showForm">
+
+       
+        <form>
+            
+            <h6>Intent Name</h6>
+            <p>Lorem ipsum dolor sit amet consectetur asto, provi</p>
+            <textarea placeholder="0/1024" style="width: 180px; height: 30px; font-weight: 700;">I need help </textarea> <br> <br>
+            <h6>Add utterance</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, incidunt repellat facere autem
+                doloribus atque. Atque praesentium maxime illum id quos quae at, ea vero rerum commodi minima.
+                Consequuntur, provident.</p>
+            <textarea> Please help me</textarea>
+            <textarea> Need assistance</textarea> <i class="bi bi-trash" style="border: 1px solid gray; color: gray; margin-left: 10px;padding: 1px;"></i>
+            <button type="button" class="btn btn-secondary btn-sm" style="background-color: rgb(210, 209, 209);
+            color: black; font-size: 12px;border: none; border-radius: 2px;
+            height: 30px;">+ Add random variation</button> <br> <br>
+            <h6>Add reply</h6>
+            <textarea style="font-size: 12px; width: 400px;height: 50px; font-weight: 600; color: rgb(133, 129, 129);">Bot says
+            </textarea><br>
+            <button type="button" class="btn btn-secondary btn-sm" style="background-color: rgb(210, 209, 209);
+            color: black; height: 30px; font-size: 12px;border: none; border-radius: 2px;
+             ">+ Add random message</button>
+            <br>
+            <button class="Create">Create Intent</button>
+            <button class="closes" style="border: 1px solid black ;border-radius: 1px ; width: 75px;" (click)="toggleForm()">Close</button>
+        </form>
+
+    </div>
+
+    <hr>
+
+    <div class="lower">
+        <h6>Insights</h6>
+        <div class="select">
+            <p>Sort by</p>
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="background-color: white; color: rgb(0, 0, 0); border-radius: 1.5px; border: 1.2px solid  rgb(199, 196, 196);
+                        font-size: 10px; font-weight: 700; margin-bottom: 5px;">
+                    Human Handoff
+                </button>
+                <ul class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.JqXkFa_5-vIzFa9vlZaFgQHaHa%26pid%3DApi&f=1&ipt=a9157cde80f4a3caf78f6cbcb8b551225befef3c7b9a75d8245ee1828a48133d&ipo=images" alt="img"
+        style="
+        width: 180px;
+        height: 180px;
+        position: relative;
+        left: 110px;
+        top: 20px;
+        "
+    >
+    <p style="font-size: 12px;color: black;position: relative;top: 20px;left:100px; font-weight: 500;">Not enough data to show insights</p>
+
+</div>

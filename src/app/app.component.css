@@ -1,0 +1,158 @@
+body {
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+
+i{
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 45px;
+    height: 100%;
+    background-color: rgb(6, 149, 104);
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top_siderbar{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bottom_siderbar{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sidebar i{
+
+    color: #e1dfdf;
+    font-size: 1.1rem;
+    margin: 2px auto;
+    
+    
+}
+
+.icon-border {
+    display: block;
+    width: 70%;
+    height: 1.5px;
+    background-color: #e6e5e5;
+    opacity: 0.8;
+    margin: 2px auto;
+  }
+
+.navbar {
+    height: 60px;
+    background-color: rgb(250, 250, 254);
+    top: 0;
+    left: 45px;
+    right: 0;
+    width: calc(100% - 45px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    
+}
+
+.navbar .icon-border{
+
+    height: 59px;
+    background-color: rgb(162, 157, 157);
+    width: 1.5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -1px;
+}
+
+.nav_right{
+
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  font-weight: 700;
+  
+}
+
+.nav_right .icon{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-weight: bold;
+    
+}
+
+.nav_right .icon i{
+
+    display: flex;
+    align-items: center;
+    width: 40px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: #1e1e1ed3;
+}
+
+
+.nav_left{
+
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+}
+.title{
+
+    width: 20%;
+    text-align: center;
+    padding-top: 7px;
+    
+}
+  
+.navbar .border{
+
+    height: 45px;
+    background-color: black;
+    width: 1px;
+    margin-right: 10px;
+}
+
+
+
+
+.option {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px;
+    
+  }
+
+
+
+  
+
